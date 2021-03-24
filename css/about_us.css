@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Crimson Pro', serif;
+}
 .container_section{
     display: flex;
     flex-direction: row;
@@ -22,7 +25,7 @@ Img.displayed {
 }
 .title{
     text-align: center;
-    font-family: Rockwell;
+
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -42,7 +45,7 @@ Img.displayed {
     padding-top: 150px;
 }
 .ubzats h3{
-    font-family: Rockwell;
+
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
@@ -53,7 +56,6 @@ Img.displayed {
     color: #000000;
 }
 .ubzats p{
-    font-family: Rockwell;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -68,7 +70,7 @@ Img.displayed {
 .list{
     padding-left: 100px;
     padding-right: 0px;
-    font-family: Rockwell;
+
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
