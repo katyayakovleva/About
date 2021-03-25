@@ -11,12 +11,9 @@ a{
 }
 body{
     font-family: 'Crimson Pro', serif;
+    min-width: 320px;
 }
-displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .title{
     text-align: center;
 

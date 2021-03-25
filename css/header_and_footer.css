@@ -7,6 +7,7 @@ a{
 }
 body{
     font-family: 'Crimson Pro', serif;
+    min-width: 320px;
 }
 .header-phone-number{
     width: 173px;
@@ -53,6 +54,7 @@ body{
     font-size: 80px;
     margin-top: 30px;
     padding-left: 80px;
+    color: black;
 }
 
 .menu{
@@ -95,11 +97,14 @@ body{
 /*    width: 23px;*/
 /*    height: 23px;*/
 /*}*/
-.footer{
+footer{
 
     margin-top: 190px;
     height: 600px;
     background: linear-gradient(360deg, rgba(224, 224, 224, 0.45) 0%, rgba(224, 224, 224, 0) 98.58%);
+}
+.footer{
+    padding-bottom: 150px;
 }
 .inst_foto{
     padding: 0;
@@ -169,8 +174,12 @@ body{
 }
 
 @media (max-width: 990px) {
-    .footer{
+    footer{
         margin-top: 68px;
+        height: 480px;
+    }
+    .footer{
+        padding-bottom: 41px;
     }
     .text_menu{
         display: none !important;
@@ -242,7 +251,7 @@ body{
         margin-right: 27px;
     }
     .facebook_icon{
-        margin-top: 7.5px;
+        margin-top: 7px;
     }
 
 

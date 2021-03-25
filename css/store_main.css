@@ -3,11 +3,10 @@
     margin: 0;
     padding: 0;
 }
-/*body{*/
-/*    height: 3000px;*/
-/*}*/
+
 body{
     font-family: 'Crimson Pro', serif;
+    min-width: 320px;
 }
 li{
     list-style-type: none;
@@ -128,6 +127,9 @@ section{
     .product3{
         display: none !important;
     }
+    /*body{*/
+    /*    height: 1800px;*/
+    /*}*/
 
 }
 @media (max-width: 710px) {
@@ -154,14 +156,21 @@ section{
     .see_more_text{
         font-size: 14px;
     }
+    .pointer_left{
+        display: none !important;
+    }
+    .pointer_right{
+        display: none !important;
+    }
+
 }
 @media (max-width: 440px) {
     .section_title{
         font-size: 14px;
         line-height: 16px;
     }
-}
-@media (min-width: 440px) {
 
 }
+
+
 
